@@ -1,6 +1,6 @@
 # Link2Home Socket Controller
 
-This repository contains scripts to enable remote control of Link2Home sockets via UDP, allowing users to switch specified relays on or off based on command-line inputs. Both Python and Perl versions of the script read configuration details from an INI file and send a hex-encoded UDP command to the specified IP and port.
+This repository contains scripts to enable remote control of Link2Home sockets via UDP, allowing users to switch specified relays on or off based on command-line inputs. Both Python and Perl versions of the script read configuration details from an INI file and send a hex-encoded UDP command to the specified IP and port. The scripts only trigger the link2home garden socket outlet (WiFi version).
 
 ## Requirements
 
