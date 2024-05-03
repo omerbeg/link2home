@@ -15,7 +15,7 @@ This repository contains scripts to enable remote control of Link2Home sockets v
 
 ## Configuration File Setup
 
-    Before running any script, ensure you have the `config.ini` file in the same directory as the script or specify its path in the script. The configuration file should be formatted as follows:
+Before running any script, ensure you have the `config.ini` file in the same directory as the script or specify its path in the script. The configuration file should be formatted as follows:
 
     [General]
     MAC_ADDRESS=98D863AABBCC
