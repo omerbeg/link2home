@@ -25,22 +25,24 @@ This repository contains scripts to enable remote control of Link2Home sockets v
 ## Installation
 
 ### Python
-    No installation is required beyond having Python 3.x installed on your system. Simply download the script and the configuration file to the same directory.
+
+No installation is required beyond having Python 3.x installed on your system. Simply download the script and the configuration file to the same directory.
 
 ### Perl
-    Ensure Perl is installed on your system. No additional installation is necessary. Just ensure the script and configuration file are in the same directory.
+
+Ensure Perl is installed on your system. No additional installation is necessary. Just ensure the script and configuration file are in the same directory.
 
 ## Usage
 
 ### Python Script
 
-    To use the Python script, specify the relay and state as command-line arguments. Here is the basic syntax:
+To use the Python script, specify the relay and state as command-line arguments. Here is the basic syntax:
 
     python link2home.py <relay> <state>
 
 ### Perl Script
 
-    To use the Perl script, specify the relay and state as command-line arguments. Here is the basic syntax:
+To use the Perl script, specify the relay and state as command-line arguments. Here is the basic syntax:
 
     perl link2home.pl --relay <relay> --state <state>
 
@@ -53,28 +55,28 @@ This repository contains scripts to enable remote control of Link2Home sockets v
 
 #### Python
 
-    Turn on relay 1:
+Turn on relay 1:
 
     python link2home.py 1 on
 
-    Turn off relay 2:
+Turn off relay 2:
 
     python link2home.py 2 off
 
 #### Perl
 
-    Turn on relay 1:
+Turn on relay 1:
 
     perl link2home.pl --relay 1 --state on
 
-    Turn off relay 2:
+Turn off relay 2:
 
     perl link2home.pl --relay 1 --state off
 
 ## Contributing
 
-    Contributions to these scripts are welcome, especially in areas such as error handling, logging, and extending functionality. Please submit a pull request or raise an issue if you have suggestions or improvements.
+Contributions to these scripts are welcome, especially in areas such as error handling, logging, and extending functionality. Please submit a pull request or raise an issue if you have suggestions or improvements.
 
 ## License
 
-    This script is released under the GNU GENERAL PUBLIC LICENSE. See `LICENSE` file for more details.
+This script is released under the GNU GENERAL PUBLIC LICENSE. See `LICENSE` file for more details.
